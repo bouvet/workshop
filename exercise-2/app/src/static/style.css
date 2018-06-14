@@ -1,0 +1,59 @@
+.app {
+    width: 900px;
+    margin: 0 auto;
+}
+
+video, img {
+    transform: scaleX(-1);
+}
+
+.emoji-wrapper{
+    margin: 0 auto;
+    width: 210px;
+}
+
+.emoji {
+    width: 128px;
+    height: 128px;
+    
+}
+
+.hotdog{
+    color: green;
+}
+
+.not-hotdog{
+    color: red;
+}   
+
+.vision-result img {
+    width: 450px;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: calc(50% - 15px);
+    margin-left: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.actions {
+    clear: both;
+}
+
+pre {
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Consolas';
+    color: 111;
+}
